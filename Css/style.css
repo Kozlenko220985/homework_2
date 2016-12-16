@@ -183,7 +183,15 @@ ul{
 	margin:0;
 	padding: 0;
 	list-style: none;
+	height: 40px;
 }
+
+.footer_menu ul:after:{
+	content: "";
+	display: block;
+	clear: both;
+}
+
 
 
 .footer_menu ul li{
@@ -203,10 +211,11 @@ ul{
 
 .footer_menu ul li span{
 	display: block;
-	height: 30px;
-	width: 150px;
+	height: 18px;
+	width: 151px;
 	text-decoration: none;
 	color: #2c2c2c;
+	text-align: center;
 	font-size: 13px;
 }
 
@@ -241,6 +250,7 @@ ul{
 	float: right;
 	margin-right: 38px;
 	margin-top: 10px;
+	height: 20px;
 }
 
 
